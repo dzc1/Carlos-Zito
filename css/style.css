@@ -458,6 +458,7 @@ body {
   @media (max-width: 768px) {
     #botox .botox-container .title {
       padding-top: 15px;
+      margin-left: 120px;
     }
   
     #botox .theworldisyours{
@@ -950,8 +951,25 @@ body {
     background: url(../img/about-img.png) center top no-repeat;
     margin-bottom: 10px;
   }
-  
-  
+
+  #botox .botox-container .background2 {
+    min-height: 300px;
+    background: url(../img/botox1.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background3 {
+    min-height: 300px;
+    background: url(../img/botox2.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+   
+  #botox .botox-container .background4 {
+    min-height: 300px;
+    background: url(../img/botox3.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+   
   #about .about-container .content {
     background: #fff;
   }
