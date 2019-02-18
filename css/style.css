@@ -458,7 +458,6 @@ body {
   @media (max-width: 768px) {
     #botox .botox-container .title {
       padding-top: 15px;
-      margin-left: 120px;
     }
   
     #botox .theworldisyours{
@@ -926,6 +925,15 @@ body {
     font-weight: 700;
     margin-bottom: 5px;
   }
+
+  .section-header .section-title2 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
   
   .section-header .section-description {
     text-align: center;
@@ -967,6 +975,84 @@ body {
   #botox .botox-container .background4 {
     min-height: 300px;
     background: url(../img/botox3.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background5 {
+    min-height: 300px;
+    background: url(../img/botox4.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background6 {
+    min-height: 300px;
+    background: url(../img/fillers1.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background7 {
+    min-height: 300px;
+    background: url(../img/fillers2.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background8 {
+    min-height: 300px;
+    background: url(../img/fillers3.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background9 {
+    min-height: 300px;
+    background: url(../img/fillers4.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background10 {
+    min-height: 300px;
+    background: url(../img/rino1.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background11 {
+    min-height: 300px;
+    background: url(../img/rino2.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+   
+  #botox .botox-container .background12 {
+    min-height: 300px;
+    background: url(../img/rino3.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background13 {
+    min-height: 300px;
+    background: url(../img/prp1.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background14 {
+    min-height: 300px;
+    background: url(../img/prp2.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background15 {
+    min-height: 300px;
+    background: url(../img/prp3.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+   
+  #botox .botox-container .background16 {
+    min-height: 300px;
+    background: url(../img/carbo1.png) center top no-repeat;
+    margin-bottom: 10px;
+  }
+
+  #botox .botox-container .background17 {
+    min-height: 300px;
+    background: url(../img/carbo2.png) center top no-repeat;
     margin-bottom: 10px;
   }
    
@@ -1150,6 +1236,16 @@ body {
     text-align: center;
     border: 1px solid #e6e6e6;
     height: 420px;
+    position: relative;
+    background: #fafafa;
+  }
+
+  #services .box2 {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 1px solid #e6e6e6;
+    height: 780px;
     position: relative;
     background: #fafafa;
   }
