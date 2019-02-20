@@ -62,23 +62,26 @@ body {
     background: #fff url("../img/preloader.svg") no-repeat center center;
   }
   
-  /* Back to top button */
+  /* Back to top button  - padding properties of mobile: padding: 9px 12px 9px 12px; font-size: 16px;*/
   .back-to-top {
     position: fixed;
     display: none;
     background: #5dc1be;
     color: #fff;
-    padding: 9px 12px 9px 12px;
-    font-size: 16px;
+    padding: 16px 20px 16px 20px;
+    font-size: 18px;
     border-radius: 2px;
     bottom: 15px;
     transition: background 0.5s;
     border-radius: 8px;
+    left: 10px;
   }
   
   @media (max-width: 768px) {
     .back-to-top {
       bottom: 15px;
+      padding: 9px 12px 9px 12px;
+      font-size: 16px;
     }
   }
   
@@ -211,7 +214,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/hero-bg.JPG) top center;
+    background: url(../img/hero1-bg.png) top center;
     background-size: cover;
     position: relative;
   }
@@ -259,6 +262,14 @@ body {
       font-size: 28px;
       line-height: 36px;
     }
+
+    #hero {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/hero2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
   }
   
   #hero h2 {
@@ -272,6 +283,8 @@ body {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
     }
   }
   
@@ -580,6 +593,24 @@ body {
   #botox .theworldisyours{
     margin-left: 5rem;
   }
+
+
+.moritz{
+  margin-bottom: 34px;
+}
+
+
+.moritz2{
+  margin-bottom: 60px;
+}
+
+.moritz3{
+  margin-bottom: 35px;
+}
+
+.moritz4{
+  margin-bottom: 14px;
+}
   
   
   /*--------------------------------------------------------------
@@ -962,6 +993,17 @@ body {
     margin-bottom: 30px;
   }
   
+  .section-header .section-title3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+
+
   .section-header .section-description {
     text-align: center;
     padding-bottom: 40px;
@@ -1220,7 +1262,7 @@ body {
   }
   
   #about .theworldisyours{
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
   
   /* Facts Section
@@ -1421,6 +1463,144 @@ body {
     background: #5dc1be;
     border: 2px solid #5dc1be;
     color: white;
+  }
+
+
+  /* values Section
+  --------------------------------*/
+  #values {
+    background: url(../img/factsbckg.png) center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0 80px 0;
+  }
+
+  .values-header .values-title {
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 80px;
+  }
+  
+  #values .box {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border:   px solid #e6e6e6;
+    height: 300px;
+    position: relative;
+  }
+
+  #values .box2 {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 1px solid #e6e6e6;
+    height: 780px;
+    position: relative;
+    background: #fafafa;
+  }
+  
+  #values .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #5dc1be;
+  }
+  
+  #values .icon a {
+    display: inline-block;
+  }
+  
+  #values .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  #values .box:hover .icon {
+    background: #fff;
+    border: 2px solid #5dc1be;
+  }
+  
+  #values .box:hover .icon i {
+    color: #5dc1be;
+  }
+  
+  #values .box:hover .icon a {
+    color: #5dc1be;
+  }
+  
+  #values .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  #values .title a {
+    color: #fff;
+  }
+  
+  #values .description {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  #values .description2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  #values .description3 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 30px;
+  }
+  
+  
+  #values .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #5dc1be;
+    color: #5dc1be;
+  }
+  
+  #values .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+    color: white;
+  }
+
+  #values p {
+    padding: 0;
+    margin: 20px 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color:#5dc1be;
+  }
+
+  #values .row{
+    margin-top: 10rem;
   }
   
   /* Call To Action Section
@@ -1762,14 +1942,14 @@ body {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #474e52;
+  background: #5dc1be;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5dc1be;
+  background: #474e52;
   padding: 60px 0 30px 0;
 }
 
@@ -1813,7 +1993,7 @@ body {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #5dc1be;
   color: #fff;
 }
 
@@ -1886,7 +2066,7 @@ body {
 }
 
 #footer .copyright {
-  text-align: left;
+  text-align: right;
   padding-top: 30px;
 }
 
@@ -2539,86 +2719,64 @@ body {
   
   
   
-  /* Testimonial Section
-  --------------------------------*/
-  #testimonial {
-    background: #fff;
-    padding: 0px 0;
-  }
-  
-  #testimonial .testimonial-container .background {
-    min-height: 300px;
-    background: url(../img/video.mp4) center top no-repeat;
-    margin-bottom: 10px;
-  }
-  
-  #testimonial .testimonial-container .content {
-    background: #fff;
-  }
-  
-  #testimonial .testimonial-container .title {
-    color: #333;
-    font-weight: 700;
-    font-size: 32px;
-  }
-  
-  @media (max-width: 768px) {
-    #testimonial .testimonial-container .title {
-      padding-top: 15px;
-    }
-  }
-  
-  #testimonial .testimonial-container p {
-    line-height: 26px;
-  }
-  
-  #testimonial .testimonial-container p:last-child {
-    margin-bottom: 0;
-  }
-  
-  #testimonial .testimonial-container .icon-box {
-    background: #fff;
-    background-size: cover;
-    padding: 0 0 30px 0;
-  }
-  
-  #testimonial .testimonial-container .icon-box .icon {
-    float: left;
-    background: #fff;
-    width: 64px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 50%;
-    border: 2px solid #5dc1be;
-  }
-  
-  #testimonial .testimonial-container .icon-box .icon i {
-    color: #5dc1be;
-    font-size: 24px;
-  }
-  
-  #testimonial .testimonial-container .icon-box .title {
-    margin-left: 80px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  
-  #testimonial .testimonial-container .icon-box .title a {
-    color: #111;
-  }
-  
-  #testimonial .testimonial-container .icon-box .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
-  }
-  
+  /* Testimonials Section
+--------------------------------*/
+
+#testimonials {
+  padding: 60px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  float: left;
+}
+
+#testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+}
+
+#testimonials .owl-nav,
+#testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#testimonials .owl-dot.active {
+  background-color: #CB2D3E;
+}
+
   
   
   
