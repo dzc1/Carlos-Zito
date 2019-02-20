@@ -39,6 +39,8 @@
   gtag('config', 'UA-125035411-1');
 </script>
 
+
+
 </head>
 
 <body>
@@ -58,8 +60,6 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu"><a href="#hero">Home</a></li>
-          <li><a href="#about">Perfil Profesional</a></li>
-          <li><a href="#contact">Contacto</a></li>
           <li class="menu-has-children"><a href="#services">Tratamientos</a>
             <ul>
               </li>
@@ -71,6 +71,9 @@
               <li><a href="">Carboxiterapia</a></li>
             </ul>
           </li>
+          <li><a href="#facts">Misión</a></li>
+          <li><a href="#about">Perfil Profesional</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -207,8 +210,7 @@
                     <ul><p>Dedicación</p></ul>
                     <ul><p>Pasión</p></ul>
                   </li>
-            </div>     
-          </div>
+            </div>   
   
         </div>
     </section>
@@ -279,7 +281,7 @@
 
               <div>
                 <i class="fa fa-phone"></i>
-                <p href="tel:34 622-853-718">+34 622-853-718</p>
+                <a class="contigo" href="tel:34 622-853-718">+34 622-853-718</a>
               </div>
             </div>
 
@@ -331,7 +333,7 @@
         <div class="container wow fadeIn">
           <div class="section-header">
             <h3 class="section-title">Lugares y Horarios De Consulta</h3>
-            <p class="section-description">debatable text here</p>
+            <!-- <p class="section-description">debatable text here</p> -->
           </div>
           <div class="row">
             
@@ -381,43 +383,44 @@
    <!--==========================
     Footer
   ============================-->
-  <!-- <footer id="footer">
+  <footer id="footer">
       <div class="footer-top">
         <div class="container">
           <div class="row">
   
             <div class="col-lg-4 col-md-6 footer-info">
-                <img src="img/dzlogocontact.png" alt="">
-              <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                <img class="astroworld" src="img/logos/arven.png" alt="">
+                <img class="astroworld" src="img/logos/metges.png" alt="">
+                <img class="astroworld" src="img/logos/pilar-footer.png" alt="">
+                <img class="astroworld" src="img/logos/quiron.png" alt="">
+                <img class="astroworld" src="img/logos/seme.png" alt="">
+              <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p> -->
             </div>
   
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
+                <li class="menu"><a href="#hero">Home</a></li>
+                <li><a href="#services">Tratamientos</a>
+                <li><a href="#about">Misión</a></li>
+                <li><a href="#about">Perfil Profesional</a></li>
+                <li><a href="#contact">Contacto</a></li>
               </ul>
             </div>
   
             <div class="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                C/ Sepulveda, 125<br>
+                Barcelona, 08015<br>
+                España <br>
+                <strong>Phone:</strong> +34 622-853-718<br>
+                <strong>Email:</strong> contacto@drcarloszito.com<br>
               </p>
   
               <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/drcarloszito/"  target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
               </div>
   
             </div>
@@ -432,7 +435,7 @@
   
           </div>
         </div>
-      </div> -->
+      </div>
   
       <div class="container">
         <div class="copyright">
@@ -477,5 +480,20 @@
       AOS.init();
     </script>
 
+  <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+34622853718", // WhatsApp number
+          call_to_action: "Comunicate conmigo", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /WhatsHelp.io widget -->
 </body>
 </html>
