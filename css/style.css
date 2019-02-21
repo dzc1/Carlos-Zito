@@ -1025,7 +1025,7 @@ body {
   
   #about .about-container .background {
     min-height: 300px;
-    background: url(../img/biggie.png) center top no-repeat;
+    background: url(../img/hero-bg.png) center top no-repeat;
     margin-bottom: 10px;
   }
 
@@ -1984,7 +1984,7 @@ body {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #474e52;
+  background: #0F0F0F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2055,7 +2055,7 @@ body {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #474e52;
+  background: #0F0F0F;
   border: 0;
   width: 35%;
   padding: 6px 0;
