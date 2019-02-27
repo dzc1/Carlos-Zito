@@ -331,7 +331,7 @@ body {
   }
   
   .hero-left2{
-    margin-top: 2rem;
+    margin-top: -10rem;
   }
   
 
@@ -355,6 +355,13 @@ body {
     background-size: cover;
     position: relative;
   }
+
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
 
   #product3 {
     width: 100%;
@@ -481,6 +488,11 @@ body {
       margin-top: 14rem;
     }
   }
+
+  .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
   
 
 
@@ -641,10 +653,6 @@ body {
     #botox .botox-container .title {
       padding-top: 15px;
     }
-  
-    #botox .theworldisyours{
-      margin-left: 0rem;
-    }
   }
   
   #botox .botox-container p {
@@ -796,7 +804,7 @@ body {
   
   #profilep:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -820,7 +828,7 @@ body {
   #profilep h1 {
     margin: 30px 0 10px 0;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 56px;
     text-transform: uppercase;
     color: #fff;
@@ -831,15 +839,11 @@ body {
       font-size: 28px;
       line-height: 36px;
     }
-
-    #about .theworldisyours{
-      margin-left: 1.5rem;
-    }
   }
   
   #profilep h2 {
     color: #eee;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-size: 24px;
   }
   
@@ -848,10 +852,6 @@ body {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
-    }
-
-    #about .theworldisyours{
-      margin-left: 1.5rem;
     }
   }
   
@@ -957,10 +957,6 @@ body {
   
     #nav-menu-conainter2 {
       display: none;
-    }
-
-    #about .theworldisyours{
-      margin-left: 1.5rem;
     }
   }
   
@@ -1345,13 +1341,9 @@ body {
     #about .about-container .title {
       padding-top: 15px;
     }
-  
-    #about .theworldisyours{
-      margin-left: 0rem;
-    }
 
     #about {
-      padding: 40px 0px;
+      padding: 0px 0px;
     }
   }
   
@@ -1428,7 +1420,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 8px 28px;
+    padding: 8px 30px;
     border-radius: 8px;
     transition: 0.5s;
     border: 2px solid #5dc1be;
@@ -1443,7 +1435,18 @@ body {
   }
   
   #about .theworldisyours{
-    margin-left: 2.5rem;
+    margin-left: 3.3rem;    
+  }
+
+  @media (max-width: 768px) {
+
+    #about .theworldisyours{
+      margin-left: 1rem;
+    }
+
+    #about .btn-get-started {
+      padding: 8px 25px;     
+    }
   }
   
   /* Facts Section
@@ -1543,7 +1546,7 @@ body {
     margin-bottom: 50px;
     text-align: center;
     border: 1px solid #e6e6e6;
-    height: 420px;
+    height: 300px;
     position: relative;
     background: #fafafa;
   }
@@ -1554,6 +1557,16 @@ body {
     text-align: left;
     border: 1px solid #e6e6e6;
     height: 780px;
+    position: relative;
+    background: #fafafa;
+  }
+
+  #services .box3 {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    height: 400px;
     position: relative;
     background: #fafafa;
   }
@@ -1666,7 +1679,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
   
   #values .box {
@@ -1713,14 +1726,14 @@ body {
     font-size: 24px;
   }
   
-  #values .box:hover .icon {
+  /* #values .box:hover .icon { */
     /* background: #fff; */
     /* border: 2px solid #5dc1be; */
-  }
+  /* } */
   
-  #values .box:hover .icon i {
+  /* #values .box:hover .icon i { */
     /* color: #5dc1be; */
-  }
+  /* } */
   
   #values .box:hover .icon a {
     color: #5dc1be;
@@ -1741,6 +1754,16 @@ body {
   #values .description {
     font-size: 20px;
     line-height: 40px;
+    font-weight: 100;
+  }
+
+  @media (max-width: 768px) {
+
+    #values .description{
+      font-size: 16px;
+    line-height: 26px;
+    font-weight: 100;
+    }
   }
 
   #values .description2 {
@@ -2127,7 +2150,7 @@ body {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #0F0F0F;
+  background: #433F3F;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
