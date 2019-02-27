@@ -346,7 +346,7 @@ body {
   }
 
    /*--------------------------------------------------------------
-  # product Section
+  # product1 Section
   --------------------------------------------------------------*/
   #product {
     width: 100%;
@@ -359,16 +359,6 @@ body {
   .productalignment{
     text-align: center;
     margin-bottom: 20px;
-  }
-
-  
-
-  #product3 {
-    width: 100%;
-    height: 100vh;
-    background: url(../img/product3-bg.svg) top center;
-    background-size: cover;
-    position: relative;
   }
   
   @media (min-width: 1024px) {
@@ -489,12 +479,707 @@ body {
     }
   }
 
-  .productplacement{
+  #product .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+
+   /*--------------------------------------------------------------
+  # product2 Section
+  --------------------------------------------------------------*/
+  #product2 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/product2) top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    #product2 {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product2:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product2 .product2-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product2 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product2 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product2 {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product2 h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product2 h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product2 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product2 .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product2 .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product2-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
+  }
+
+  #product2 .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+
+  /*--------------------------------------------------------------
+  # product3 Section
+  --------------------------------------------------------------*/
+  #product3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/botox1.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    #product3 {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product3:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product3 .product-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product3 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product3 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product3 {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product3 h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product3 h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product3 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product3 .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product3 .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
+  }
+
+  #product3 .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+  /*--------------------------------------------------------------
+  # product4 Section
+  --------------------------------------------------------------*/
+  #product4 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/botox1.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    #product4 {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product4:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product4 .product-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product4 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product4 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product4 {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product4 h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product4 h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product4 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product4 .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product4 .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
+  }
+
+  #product4 .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+  /*--------------------------------------------------------------
+  # product5 Section
+  --------------------------------------------------------------*/
+  #product5 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/botox1.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    #product5 {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product5:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product5 .product-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product5 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product5 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product5 {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product5 h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product5 h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product5 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product5 .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product5 .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
+  }
+
+  #product5 .productplacement{
     margin-top: 50px;
     margin-bottom: 50px;
   } 
   
+/*--------------------------------------------------------------
+  # product3 Section
+  --------------------------------------------------------------*/
+  #product6 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/botox1.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
 
+  .productalignment{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    #product6 {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product6:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product6 .product-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product6 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product6 h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product6 {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product6 h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product6 h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product6 h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product6 .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product6 .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
+  }
+
+  #product6 .productplacement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
 
   /*--------------------------------------------------------------
   # botox Page Section
