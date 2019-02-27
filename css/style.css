@@ -112,7 +112,7 @@ body {
   
   #header #logo {
     float: left;
-    margin-top: -15px;
+    margin-top: -7px;
   }
   
   #header #logo h1 {
@@ -202,7 +202,7 @@ body {
   }
   
   #header.header-fixed {
-    background: #0F0F0F;
+    background: #433F3F;
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
@@ -235,7 +235,7 @@ body {
   
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -259,7 +259,7 @@ body {
   #hero h1 {
     margin: 30px 0 10px 0;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 56px;
     text-transform: uppercase;
     color: #fff;
@@ -284,6 +284,10 @@ body {
     color: #eee;
     margin-bottom: 50px;
     font-size: 24px;
+  }
+
+  #hero h3 {
+    color: #eee
   }
   
   @media (max-width: 768px) {
@@ -328,6 +332,154 @@ body {
   
   .hero-left2{
     margin-top: 2rem;
+  }
+  
+
+  .hero-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #hero-right {
+      margin-top: 14rem;
+    }
+  }
+
+   /*--------------------------------------------------------------
+  # product Section
+  --------------------------------------------------------------*/
+  #product {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/botox1.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  #product3 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/product3-bg.svg) top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  @media (min-width: 1024px) {
+    #product {
+      background-attachment: fixed;
+    }
+  }
+  
+  #product:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #product .product-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #product h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #product h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #product {
+      width: 100%;
+      height: 100vh;
+      background: url(../img/product2-bg.png) top center;
+      background-size: cover;
+      position: relative;
+    }
+  }
+  
+  #product h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  #product h3 {
+    color: #eee
+  }
+  
+  @media (max-width: 768px) {
+    #product h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  
+  #product .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #product .btn-get-started:hover {
+    background: #5dc1be;
+    border: 2px solid #5dc1be;
+  }
+  
+  .product-left{
+    margin-top: 14rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-left {
+      margin-top: 14rem;
+    }
+  }
+  
+  .product-left2{
+    margin-top: 2rem;
+  }
+  
+
+  .product-right{
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    #product-right {
+      margin-top: 14rem;
+    }
   }
   
 
@@ -619,6 +771,10 @@ body {
 .moritz4{
   margin-bottom: 14px;
 }
+
+.drcenterzito {
+  text-align: justify;
+}
   
   
   /*--------------------------------------------------------------
@@ -675,6 +831,10 @@ body {
       font-size: 28px;
       line-height: 36px;
     }
+
+    #about .theworldisyours{
+      margin-left: 1.5rem;
+    }
   }
   
   #profilep h2 {
@@ -688,6 +848,10 @@ body {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
+    }
+
+    #about .theworldisyours{
+      margin-left: 1.5rem;
     }
   }
   
@@ -793,6 +957,10 @@ body {
   
     #nav-menu-conainter2 {
       display: none;
+    }
+
+    #about .theworldisyours{
+      margin-left: 1.5rem;
     }
   }
   
@@ -988,7 +1156,7 @@ body {
     color: #111;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 5px;
   }
 
@@ -1006,7 +1174,7 @@ body {
     color: #111;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 40px;
   }
 
@@ -1033,7 +1201,7 @@ body {
   --------------------------------*/
   #about {
     background: #fff;
-    padding: 100px 100px;
+    padding: 40px 100px;
   }
   
   #about .about-container .background {
@@ -1116,7 +1284,7 @@ body {
 
   #botox .botox-container .background14 {
     min-height: 300px;
-    background: url(../img/prp2.png) center top no-repeat;
+    background: url(../img/botox1.svg) center top no-repeat;
     margin-bottom: 10px;
   }
 
@@ -1144,7 +1312,7 @@ body {
   
   #about .about-container .title {
     color: #333;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 32px;
     letter-spacing: 5px;
   }
@@ -1183,7 +1351,7 @@ body {
     }
 
     #about {
-      padding: 0px 0px;
+      padding: 40px 0px;
     }
   }
   
@@ -1195,7 +1363,7 @@ body {
   #about .about-container p:last-child {
     margin-bottom: 0;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 0px;
   }
   
   #about .about-container .icon-box {
@@ -1275,7 +1443,7 @@ body {
   }
   
   #about .theworldisyours{
-    margin-left: 1rem;
+    margin-left: 2.5rem;
   }
   
   /* Facts Section
@@ -1497,7 +1665,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 80px;
   }
   
