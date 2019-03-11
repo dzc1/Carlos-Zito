@@ -140,7 +140,7 @@ jQuery(document).ready(function ($) {
   
   'use strict'
   var	testim = document.getElementById("testim"),
-          testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+      testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
       testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
       testimLeftArrow = document.getElementById("left-arrow"),
       testimRightArrow = document.getElementById("right-arrow"),
@@ -148,10 +148,10 @@ jQuery(document).ready(function ($) {
       currentSlide = 0,
       currentActive = 0,
       testimTimer,
-          touchStartPos,
-          touchEndPos,
-          touchPosDiff,
-          ignoreTouch = 30;
+      touchStartPos,
+      touchEndPos,
+      touchPosDiff,
+      ignoreTouch = 30;
   ;
   
   window.onload = function() {
