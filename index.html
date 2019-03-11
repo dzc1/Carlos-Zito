@@ -18,6 +18,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
   
 
   <!-- Libraries CSS Files -->
@@ -49,7 +51,7 @@
   Header
   class for the "tratamientos" tab for the menu dropdown ---- Class="menu-has-children"----- 
   ============================-->
-  <header id="header">
+  <header id="header" class="header-fixed">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -190,8 +192,10 @@
               <!-- <h4 class="title">Vision</h4> -->
               <!-- <p class="description valores">"Mi compromiso es ofrecer una medicina segura y adaptada a las necesidades de cada uno de mis pacientes".</p>
               <p class="description valores">"Puedo Mejorar tu calidad de vida, exaltando tu naturalidad sin alterar tu esencia".</p> -->
-              <p class="description valores">Mi compromiso es ofrecer una medicina segura y adaptada a las necesidades de cada uno de mis pacientes. Puedo mejorar tu calidad de vida, exaltando la belleza con naturalidad y sin alterar tu esencia. Me motiva poder guiar e inspirar a las personas, que confian en mi habilidad como médico estético, en cada uno de sus procesos de transformación de imagen y tratamientos anti-edad.</p>
+              <p class="description valores">Mi compromiso es ofrecer una medicina segura y adaptada a las necesidades de cada uno de mis pacientes. Puedo mejorar tu calidad de vida, exaltando la belleza con naturalidad y sin alterar tu esencia.</p>
+              <p class="description valores"> Me motiva poder guiar e inspirar a las personas, que confian en mi habilidad como médico estético, en cada uno de sus procesos de transformación de imagen y tratamientos anti-edad.</p>
             </div>
+            <img src="img/signature.png" alt="" class="signature">
           </div>
          
         </div>
@@ -235,76 +239,103 @@
       div class="img"><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt=""></div>  THIS GOES BELOW div class="active" -->
     <!-- ============================ -->
 
-     <!-- <section id="testimonial">
-        <div class="container wow fadeIn">
-            <div class="section-header">
-              <h3 class="section-title">Testimonios</h3>
-              <p class="section-description">Que Opinan Mis Pacientes</p>
+  <section id="testimonios" class="contacto">
+    <section id="testimonial">
+      <div class="container wow fadeIn">
+          <div class="section-header">
+            <h3 class="section-title">Testimonios</h3>
+            <p class="section-description">Que Opinan Mis Pacientes</p>
+          </div>
+      </div>
+      <div class="carousel-bg">
+          <!-- Quote Image -->
+          <!-- <div>
+            <img src="https://i.imgur.com/gZ5HY0U.png" class="img-responsive quote-image">
+          </div> -->
+          <!-- Carousel Start below -->
+          <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carrusel">
+              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel1" data-slide-to="1"></li>
+              <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="carousel-caption testimonial-caption-style">
+                  <p>Ponerme en tus manos ha sido todo un acierto. Súper contenta con el resultado porque es exactamente lo que quería. Pronto me haré otro tratamiento, seguro!</p>
+                  <p class="testimonial-authors">Caroline G</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption testimonial-caption-style">
+                  <p>Gracias Doctor! Además de profesional, simpático y con calidad humana 👏🏾👏🏾👏🏾 seré tu paciente forever.</p>
+                  <p class="testimonial-authors">Marylin M</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption testimonial-caption-style">
+                  <p>(Ejemplo)Puedes contar con el Dr. Carlos Zito para cualquier tratamiento que quieras</p></p>
+                  <p class="testimonial-authors">Michael T</p>
+                </div>
+              </div>
             </div>
-        </div>
-        <div class="container">
-          <div class="row testimonial-container">
-  
-            <div class="col-lg-6 content order-lg-1 order-2">  
-              <div class="icon-box wow fadeInUp">
-                  <div class="testim carlos2">
-                      <div class="wrap">
         
-                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-                        <ul id="testim-dots" class="dots">
-                            <li class="dot active"></li>
-                              <li class="dot"></li>
-                              <li class="dot"></li>
-                              <li class="dot"></li>
-                              <li class="dot"></li>
-                        </ul>
-                        <div id="testim-content" class="cont">
-                            
-                            <div class="active">
-                                <h2>Caroline G</h2>
-                                <p>Ponerme en tus manos ha sido todo un acierto. Súper contenta con el resultado porque es exactamente lo que quería. Pronto me haré otro tratamiento, seguro!</p>                    
-                            </div>
-                  
-                            <div>
-                                
-                                <h2>Mr. Lorem Ipsum</h2>
-                                <p>Gracias Doctor! Ademas de profesional, simpatico y con calidad humana. Sere tu paciente forever.</p>                    
-                            </div>
-                  
-                            <div>
-                                
-                                <h2>Lorem Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                            </div>
-                  
-                            <div>
-                                
-                                <h2>Lorem De Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                            </div>
-                  
-                            <div>
-                                
-                                <h2>Ms. Lorem R. Ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
-                            </div>
-                  
-                        </div>
-                    </div>
-                    
-                
-                  </div>
-              </div>  
-            </div> 
-  
-          </div> 
-  
-        </div>
-      </section> -->
+            <!-- Controls -->
+        
+            <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+          </div>
+        
+      </div>
+    </section>
+  </section>
+      
       <!-- #testimonial -->
 
-    <!--==========================
+   
+
+      <!--==========================
+      Locations In Barcelona Section
+    ============================-->
+    <section id="services">
+        <div class="container wow fadeIn">
+          <div class="section-header">
+            <h3 class="section-title3">Lugares y Horarios De Consulta</h3>
+            <p class="section-description">Tratamientos solo con Cita Previa</p>
+          </div>
+          <div class="row">
+            
+              <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="box3">
+                    <img src="img/bufet-medic-logo.png" alt="">
+                    <p class="description3">Carrer de Sepúlveda, 125, 08015 Barcelona</p>
+                    <p class="description3"><strong>Lunes a Viernes</strong></p>
+                    <p class="description2">Tel. +34 622 853 718</p>
+                    <p class="description2">www.bufetmedic.es</p>
+                    <a href="https://goo.gl/maps/UNwnFCg5uhQ2"  target="_blank" class="btn-get-started">Direcciones</a>
+                  </div>
+              </div>
+            
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box3">
+                <img src="img/egos1.png" alt="">
+                <p class="description3">Carrer de Balmes, 271, 08006 Barcelona</p>
+                <p class="description3"><strong>Viernes</strong> 10:00 - 14:00 Horas</p>
+                <p class="description2">Tel. +34 609 10 24 40</p>
+                <p class="description2">www.clinicaegos.com</p>
+                <a href="https://goo.gl/maps/hN95YAHvmz32"  target="_blank" class="btn-get-started">Direcciones</a>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+    </section>
+    <!-- #services -->
+
+   <!--==========================
       Contact Section
     ============================-->
     <section id="contact" class="contacto">
@@ -379,45 +410,6 @@
     </section>
     
     <!-- #contact -->
-
-      <!--==========================
-      Locations In Barcelona Section
-    ============================-->
-    <section id="services">
-        <div class="container wow fadeIn">
-          <div class="section-header">
-            <h3 class="section-title3">Lugares y Horarios De Consulta</h3>
-            <p class="section-description">Tratamientos solo con Cita Previa</p>
-          </div>
-          <div class="row">
-            
-              <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                  <div class="box3">
-                    <img src="img/bufet-medic-logo.png" alt="">
-                    <p class="description3">Carrer de Sepúlveda, 125, 08015 Barcelona</p>
-                    <p class="description3"><strong>Lunes a Viernes</strong></p>
-                    <p class="description2">Tel. +34 622 853 718</p>
-                    <p class="description2">www.bufetmedic.es</p>
-                    <a href="https://goo.gl/maps/UNwnFCg5uhQ2" class="btn-get-started">Direcciones</a>
-                  </div>
-              </div>
-            
-            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="box3">
-                <img src="img/egos1.png" alt="">
-                <p class="description3">Carrer de Balmes, 271, 08006 Barcelona</p>
-                <p class="description3"><strong>Viernes</strong> 10:00 - 14:00 Horas</p>
-                <p class="description2">Tel. +34 609 10 24 40</p>
-                <p class="description2">www.clinicaegos.com</p>
-                <a href="https://goo.gl/maps/hN95YAHvmz32" class="btn-get-started">Direcciones</a>
-              </div>
-            </div>
-            
-            
-          </div>
-        </div>
-    </section>
-    <!-- #services -->
 
   </main>
 
@@ -507,6 +499,8 @@
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
 
   <!-- Contact Form JavaScript File -->

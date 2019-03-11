@@ -68,7 +68,7 @@ body {
     display: none;
     background: #5dc1be;
     color: #fff;
-    padding: 16px 20px 16px 20px;
+    padding: 10px 20px 10px 20px;
     font-size: 18px;
     border-radius: 2px;
     bottom: 15px;
@@ -1466,7 +1466,7 @@ body {
 }
 
 .drcenterzito {
-  text-align: justify;
+  text-align: left;
 }
   
   
@@ -1882,7 +1882,7 @@ body {
   --------------------------------*/
   #about {
     background: #fff;
-    padding: 40px 100px;
+    padding: 80px 0 20px 0;
   }
   
   #about .about-container .background {
@@ -1992,7 +1992,7 @@ body {
   }
   
   #about .about-container .title {
-    color: #333;
+    color: #111;
     font-weight: 100;
     font-size: 32px;
     letter-spacing: 5px;
@@ -2029,6 +2029,7 @@ body {
 
     #about {
       padding: 0px 0px;
+      margin-bottom: 50px;
     }
   }
   
@@ -2120,13 +2121,13 @@ body {
   }
   
   #about .theworldisyours{
-    margin-left: 3.3rem;    
+    margin-left: 9.8rem;    
   }
 
   @media (max-width: 768px) {
 
     #about .theworldisyours{
-      margin-left: 1rem;
+      margin-left: 6rem;
     }
 
     #about .btn-get-started {
@@ -2223,7 +2224,7 @@ body {
   #services {
     background: #fff;
     background-size: cover;
-    padding: 80px 0 80px 0;
+    padding: 80px 0 0px 0;
   }
   
   #services .box {
@@ -2355,7 +2356,7 @@ body {
     background: url(../img/factsbckg.png) center;
     background-size: cover;
     position: relative;
-    padding: 100px 0 80px 0;
+    padding: 100px 0 150px 0;
   }
 
   .values-header .values-title {
@@ -2368,7 +2369,7 @@ body {
   }
   
   #values .box {
-    padding: 50px 20px;
+    padding: 10px 20px;
     margin-bottom: 50px;
     text-align: center;
     border:   px solid #e6e6e6;
@@ -2442,6 +2443,10 @@ body {
     font-weight: 100;
   }
 
+  .signature {
+    margin-left: 450px;
+  }
+
   @media (max-width: 768px) {
 
     #values .description{
@@ -2449,6 +2454,12 @@ body {
     line-height: 26px;
     font-weight: 100;
     }
+    
+    .signature {
+      margin-left: 70px;
+      margin-top: 100px;
+    }
+
   }
 
   #values .description2 {
@@ -2486,7 +2497,7 @@ body {
 
   #values p {
     padding: 0;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     color:#5dc1be;
@@ -2684,6 +2695,26 @@ body {
     margin: 0 2px;
   }
   
+  /* Values - Testimonials  Section
+  --------------------------------*/
+ 
+ 
+  #testimonios {
+    background: #f7f7f7;
+    padding: 100px 0 200px 0;
+  }
+
+  .carrusel{
+    top: 300px;
+  }
+
+  @media (max-width: 768px) {
+    .carrusel{
+      top: 350px;
+    }
+  }
+
+  
   /* Contact Section
   --------------------------------*/
   .contacto{
@@ -2693,7 +2724,7 @@ body {
   
   #contact {
     background: #f7f7f7;
-    padding: 80px 0 40px 0;
+    padding: 80px 0 20px 0;
   }
   
   #contact #google-map {
@@ -2808,7 +2839,7 @@ body {
   }
   
   #contact .form input, #contact .form textarea {
-    border-radius: 0;
+    border-radius: 2;
     box-shadow: none;
     font-size: 14px;
   }
@@ -2819,6 +2850,7 @@ body {
     padding: 10px 24px;
     color: #fff;
     transition: 0.4s;
+    border-radius: 4px;
   }
   
   #contact .form button[type="submit"]:hover {
@@ -2873,7 +2905,7 @@ body {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0F0F0F;
+  background: #433F3F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2944,7 +2976,7 @@ body {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #0F0F0F;
+  background: #433F3F;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -3015,9 +3047,9 @@ body {
           background: rgba(30,30,30);
   }
   .testim {
-          width: 100%;
+          
           position: absolute;
-          top: 50%;
+          top: 100%;
           -webkit-transform: translatey(-50%);
           -moz-transform: translatey(-50%);
           -ms-transform: translatey(-50%);
@@ -3038,7 +3070,7 @@ body {
       position: absolute;
       color: #5dc1be;
       cursor: pointer;
-      font-size: 2em;
+      font-size: 1em;
       top: 50%;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
@@ -3607,71 +3639,85 @@ body {
   }
   
   .carlos2{
-    margin-top: 20px;
+    margin-top: 100px;
+    justify-content: center;
   }
   
-  
-  
-  /* Testimonials Section
---------------------------------*/
+/*   
+  Testimonials With Bootstrap Carousel 
 
-#testimonials {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#testimonials .section-header {
+  -------------------------------------- */
+  
+  /* Testimonial CSS Code Start */
+/* background */
+.carousel-bg {
+  background-color: none;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
-
-#testimonials .testimonial-item .testimonial-img {
-  width: 120px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  float: left;
+/* quote */
+.quote-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding-top: 60px;
+  width: 80px;
 }
-
-#testimonials .testimonial-item h3 {
+/* text-style */
+.testimonial-style .testimonial-caption-style {
+  font-family: "raleway";
+  font-weight: 400;
   font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-  margin-left: 140px;
+  color: #354052;
+  line-height: 30px;
+  bottom: 40%;
+  text-shadow: none;
+  top: 10%;
 }
-
-#testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 15px 0;
-  margin-left: 140px;
+.testimonial-style .testimonial-authors {
+  font-family: "raleway";
+  font-weight: 100;
+  font-size: 25px;
+  color: #354052;
+  line-height: 30px;
+  margin-top: 40px;
 }
-
-#testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 140px;
+/* carousel-height-control */
+.testimonial-style .carousel-inner > .item {
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 300px;
 }
-
-#testimonials .owl-nav,
-#testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
+/* carousel-left-right-control */
+.testimonial-style .carousel-control.left {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
 }
-
-#testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
+.testimonial-style .carousel-control.right {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
 }
-
-#testimonials .owl-dot.active {
-  background-color: #CB2D3E;
+.testimonial-style .carousel-control {
+  color: #5dc1be;
 }
-
-  
-  
+.testimonial-style .carousel-control:hover {
+  color: #354052;
+  text-decoration: none;
+  transition: background-color 1s ease;
+}
+/* indicators */
+.testimonial-style .carousel-indicators .active {
+  background-color: #5dc1be;
+  width: 15px;
+  height: 15px;
+  transition: background 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.testimonial-style .carousel-indicators li {
+  border: 2px solid white;
+  background-color: #5dc1be;
+}
   
   /* Arrow In Profile Page Section
   --------------------------------*/
