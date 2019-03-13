@@ -345,6 +345,12 @@ body {
     }
   }
 
+  /*--------------------------------------------------------------
+  # product Style  Section
+  --------------------------------------------------------------*/
+  #productstyle {
+    padding: 100px 0 20px 0;
+  }
    /*--------------------------------------------------------------
   # product1 Section
   --------------------------------------------------------------*/
@@ -1882,7 +1888,7 @@ body {
   --------------------------------*/
   #about {
     background: #fff;
-    padding: 80px 0 20px 0;
+    padding: 100px 0 20px 0;
   }
   
   #about .about-container .background {
@@ -2224,7 +2230,7 @@ body {
   #services {
     background: #fff;
     background-size: cover;
-    padding: 80px 0 0px 0;
+    padding: 100px 0 20px 0;
   }
   
   #services .box {
@@ -2724,7 +2730,7 @@ body {
   
   #contact {
     background: #f7f7f7;
-    padding: 80px 0 20px 0;
+    padding: 100px 0 20px 0;
   }
   
   #contact #google-map {
@@ -3953,4 +3959,29 @@ body {
     .tabinfo div p {
       line-height: 20px;
     }
+  }
+
+  /*--------------------------------------------------------------
+  # Blog Style  Section
+  --------------------------------------------------------------*/
+  #blogstyle {
+    padding: 150px 0 20px 0;
+  }
+
+  .blogimg {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+  }
+
+  #blogstyle h1{
+    color: #5dc1be;
+  }
+
+  .blogdiv{
+    padding: 20px 0 0px 0;
+  }
+
+  #blogstyle p {
+    margin-bottom: 20px;
   }
