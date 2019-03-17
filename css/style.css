@@ -2647,7 +2647,7 @@ body {
   /* values6 Section
   --------------------------------*/
   #values6 {
-    background: url(../img/hair.svg) center;
+    background: url(../img/hair.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
@@ -2655,7 +2655,7 @@ body {
 
   @media (max-width: 768px) {
     #values6{
-      background: url(../img/hair2.svg) center;
+      background: url(../img/hair2.png) center;
       background-size: cover;
       position: relative;
       padding: 10px 0 150px 0;
