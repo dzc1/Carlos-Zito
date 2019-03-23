@@ -218,7 +218,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/carlos-background2.png) top center;
+    background: url(../img/carlos-background.png) top center;
     background-size: cover;
     position: relative;
   }
