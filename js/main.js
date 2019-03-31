@@ -105,137 +105,137 @@ jQuery(document).ready(function ($) {
 
 
 //   // Porfolio filter
-//   $("#portfolio-flters li").click(function () {
-//     $("#portfolio-flters li").removeClass('filter-active');
-//     $(this).addClass('filter-active');
+  $("#portfolio-flters li").click(function () {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
 
-//     var selectedFilter = $(this).data("filter");
-//     $("#portfolio-wrapper").fadeTo(100, 0);
+    var selectedFilter = $(this).data("filter");
+    $("#portfolio-wrapper").fadeTo(100, 0);
 
-//     $(".portfolio-item").fadeOut().css('transform', 'scale(0)');
+    $(".portfolio-item").fadeOut().css('transform', 'scale(0)');
 
-//     setTimeout(function () {
-//       $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
-//       $("#portfolio-wrapper").fadeTo(300, 1);
-//     }, 300);
-//   });
+    setTimeout(function () {
+      $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
+      $("#portfolio-wrapper").fadeTo(300, 1);
+    }, 300);
+  });
 
-//   // jQuery counterUp
-//   $('[data-toggle="counter-up"]').counterUp({
-//     delay: 10,
-//     time: 4000
-//   });
+  // jQuery counterUp
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 4000
+  });
 
-//   // custom code
+  // custom code
 
-// });
+});
 
-// var flkty = new Flickity( '.main-gallery', {
-//   cellAlign: 'left',
-//   contain: true,
-//   wrapAround: true,
-//   prevNextButtons: false,
-//   autoPlay: 5000
-// });
+var flkty = new Flickity( '.main-gallery', {
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true,
+  prevNextButtons: false,
+  autoPlay: 5000
+});
 
 
-// 'use strict'
-// var testim = document.getElementById("testim"),
-//     testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-//     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-//     testimLeftArrow = document.getElementById("left-arrow"),
-//     testimRightArrow = document.getElementById("right-arrow"),
-//     testimSpeed = 4500,
-//     currentSlide = 0,
-//     currentActive = 0,
-//     testimTimer,
-//     touchStartPos,
-//     touchEndPos,
-//     touchPosDiff,
-//     ignoreTouch = 30;
-// ;
+'use strict'
+var testim = document.getElementById("testim"),
+    testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+    testimLeftArrow = document.getElementById("left-arrow"),
+    testimRightArrow = document.getElementById("right-arrow"),
+    testimSpeed = 4500,
+    currentSlide = 0,
+    currentActive = 0,
+    testimTimer,
+    touchStartPos,
+    touchEndPos,
+    touchPosDiff,
+    ignoreTouch = 30;
+;
 
-// window.onload = function() {
+window.onload = function() {
 
-//     // Testim Script
-//     function playSlide(slide) {
-//         for (var k = 0; k < testimDots.length; k++) {
-//             testimContent[k].classList.remove("active");
-//             testimContent[k].classList.remove("inactive");
-//             testimDots[k].classList.remove("active");
-//         }
+    // Testim Script
+    function playSlide(slide) {
+        for (var k = 0; k < testimDots.length; k++) {
+            testimContent[k].classList.remove("active");
+            testimContent[k].classList.remove("inactive");
+            testimDots[k].classList.remove("active");
+        }
 
-//         if (slide < 0) {
-//             slide = currentSlide = testimContent.length-1;
-//         }
+        if (slide < 0) {
+            slide = currentSlide = testimContent.length-1;
+        }
 
-//         if (slide > testimContent.length - 1) {
-//             slide = currentSlide = 0;
-//         }
+        if (slide > testimContent.length - 1) {
+            slide = currentSlide = 0;
+        }
 
-//         if (currentActive != currentSlide) {
-//             testimContent[currentActive].classList.add("inactive");            
-//         }
-//         testimContent[slide].classList.add("active");
-//         testimDots[slide].classList.add("active");
+        if (currentActive != currentSlide) {
+            testimContent[currentActive].classList.add("inactive");            
+        }
+        testimContent[slide].classList.add("active");
+        testimDots[slide].classList.add("active");
 
-//         currentActive = currentSlide;
+        currentActive = currentSlide;
     
-//         clearTimeout(testimTimer);
-//         testimTimer = setTimeout(function() {
-//             playSlide(currentSlide += 1);
-//         }, testimSpeed)
-//     }
+        clearTimeout(testimTimer);
+        testimTimer = setTimeout(function() {
+            playSlide(currentSlide += 1);
+        }, testimSpeed)
+    }
 
-//     testimLeftArrow.addEventListener("click", function() {
-//         playSlide(currentSlide -= 1);
-//     })
+    testimLeftArrow.addEventListener("click", function() {
+        playSlide(currentSlide -= 1);
+    })
 
-//     testimRightArrow.addEventListener("click", function() {
-//         playSlide(currentSlide += 1);
-//     })    
+    testimRightArrow.addEventListener("click", function() {
+        playSlide(currentSlide += 1);
+    })    
 
-//     for (var l = 0; l < testimDots.length; l++) {
-//         testimDots[l].addEventListener("click", function() {
-//             playSlide(currentSlide = testimDots.indexOf(this));
-//         })
-//     }
+    for (var l = 0; l < testimDots.length; l++) {
+        testimDots[l].addEventListener("click", function() {
+            playSlide(currentSlide = testimDots.indexOf(this));
+        })
+    }
 
-//     playSlide(currentSlide);
+    playSlide(currentSlide);
 
-//     // keyboard shortcuts
-//     document.addEventListener("keyup", function(e) {
-//         switch (e.keyCode) {
-//             case 37:
-//                 testimLeftArrow.click();
-//                 break;
+    // keyboard shortcuts
+    document.addEventListener("keyup", function(e) {
+        switch (e.keyCode) {
+            case 37:
+                testimLeftArrow.click();
+                break;
                 
-//             case 39:
-//                 testimRightArrow.click();
-//                 break;
+            case 39:
+                testimRightArrow.click();
+                break;
 
-//             case 39:
-//                 testimRightArrow.click();
-//                 break;
+            case 39:
+                testimRightArrow.click();
+                break;
 
-//             default:
-//                 break;
-//         }
-//     })
+            default:
+                break;
+        }
+    })
     
-//     testim.addEventListener("touchstart", function(e) {
-//         touchStartPos = e.changedTouches[0].clientX;
-//     })
+    testim.addEventListener("touchstart", function(e) {
+        touchStartPos = e.changedTouches[0].clientX;
+    })
   
-//     testim.addEventListener("touchend", function(e) {
-//         touchEndPos = e.changedTouches[0].clientX;
+    testim.addEventListener("touchend", function(e) {
+        touchEndPos = e.changedTouches[0].clientX;
       
-//         touchPosDiff = touchStartPos - touchEndPos;
+        touchPosDiff = touchStartPos - touchEndPos;
       
-//         console.log(touchPosDiff);
-//         console.log(touchStartPos); 
-//         console.log(touchEndPos); 
-// >>>>>>> b9fda5aedd9cfe3e3b2e897b98e6a7d3b3c3daa0
+        console.log(touchPosDiff);
+        console.log(touchStartPos); 
+        console.log(touchEndPos); 
+        b9fda5aedd9cfe3e3b2e897b98e6a7d3b3c3daa0
 
       
         if (touchPosDiff > 0 + ignoreTouch) {
