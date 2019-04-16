@@ -2493,7 +2493,7 @@ body {
 
   @media (max-width: 768px) {
     #values4{
-      background: url(../img/calidaddepiel-2.png) center;
+      background: url(../img/calidaddepiel-mobile.png) center;
       background-size: cover;
       position: auto;
       padding: 20px 0 150px 0;
