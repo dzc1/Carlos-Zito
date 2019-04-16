@@ -4,16 +4,16 @@ jQuery(document).ready(function ($) {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
-      $('#header').addClass('header-fixed');
+      $('#contact').addClass('header-fixed');
     } else {
       $('.back-to-top').fadeOut('slow');
-      $('#header').removeClass('header-fixed');
+      $('#contact').removeClass('header-fixed');
     }
   });
   $('.back-to-top').click(function () {
     $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
+      
+    }, 1000, 'easeInOutExpo');
     return false;
   });
 
