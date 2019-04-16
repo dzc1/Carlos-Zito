@@ -2313,7 +2313,7 @@ body {
   /* values3 Section
   --------------------------------*/
   #values3 {
-    background: url(../img/botox1.png) center;
+    background: url(../img/botox1-2.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
@@ -2321,7 +2321,7 @@ body {
 
   @media (max-width: 768px) {
     #values3{
-      background: url(../img/botox1.svg) center;
+      background: url(../img/botox1-2.png) center;
       background-size: cover;
       padding: 20px 0 150px 0;
     }
@@ -2485,7 +2485,7 @@ body {
   /* values4 Section
   --------------------------------*/
   #values4 {
-    background: url(../img/calidaddepiel.png) center;
+    background: url(../img/calidaddepiel-2.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
@@ -2659,7 +2659,7 @@ body {
   /* values5 Section
   --------------------------------*/
   #values5 {
-    background: url(../img/fat.png) center;
+    background: url(../img/fat-2.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
@@ -2822,7 +2822,7 @@ body {
   /* values6 Section
   --------------------------------*/
   #values6 {
-    background: url(../img/hair.png) center;
+    background: url(../img/hair-2.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
@@ -2830,7 +2830,7 @@ body {
 
   @media (max-width: 768px) {
     #values6{
-      background: url(../img/hair-mobile.png) center;
+      background: url(../img/hair-2.png) center;
       background-size: cover;
       position: relative;
       padding: 10px 0 150px 0;
@@ -2995,7 +2995,7 @@ body {
   /* values7 Section
   --------------------------------*/
   #values7 {
-    background: url(../img/otros.png) center;
+    background: url(../img/otros2.png) center;
     background-size: cover;
     position: relative;
     padding: 100px 0 150px 0;
