@@ -2145,7 +2145,7 @@ body {
 
   @media (max-width: 768px) {
     #values2{
-      background: url(../img/fillers-small.png) center;
+      background: url(../img/fillers.png) center;
       background-size: cover;
       padding: 20px 0 150px 0;
     }
@@ -2493,7 +2493,7 @@ body {
 
   @media (max-width: 768px) {
     #values4{
-      background: url(../img/calidaddepiel-small.png) center;
+      background: url(../img/calidaddepiel-2.png) center;
       background-size: cover;
       position: auto;
       padding: 20px 0 150px 0;
