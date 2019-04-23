@@ -4615,6 +4615,7 @@ body {
     vertical-align: middle;
     border-style: none;
     max-width: 100%;
+    max-height: 200px;
   }
 
   .blogimg2 {
