@@ -4615,11 +4615,20 @@ body {
     vertical-align: middle;
     border-style: none;
     max-width: 100%;
-    max-height: 200px;
   }
 
   .blogimg2 {
     margin: 0px 200px 0rem;
+  }
+
+  .blogimg4 {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    max-height: 300px;
+    float: left;
+    shape-margin:200px;
+    padding: 1%;
   }
 
   #blogstyle h1{
